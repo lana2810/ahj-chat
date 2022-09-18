@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 80%;
+  margin: 20px auto 20px auto;
+  border: 1px solid gray;
+}
+.members {
+  width: 30%;
+}
+.chat {
+  width: 70%;
+  border-left: 1px solid gray;
+  padding: 1em;
+}
+.btn {
+  width: 83%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-title {
+  text-align: center;
+}
+input {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.input-message {
+  width: 96%;
+}
+.input-login {
+  width: 79%;
+}
+label {
+  font-size: 1.2rem;
+}
+.hidden {
+  display: none;
+}
+ul {
+  padding-left: 0px;
+}
+.li-member {
+  list-style: none;
+  margin: 1em 1em;
+}
+.li-member::before {
+  content: "";
+  border: 1px solid gray;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
+}
+
+.autor {
+  font-size: 0.8rem;
+}
+.error {
+  color: red;
+}
+.message-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
